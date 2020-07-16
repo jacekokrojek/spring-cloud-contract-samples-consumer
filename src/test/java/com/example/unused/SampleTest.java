@@ -10,6 +10,6 @@ class SampleTest {
 
     @Test
     void sum() {
-    	BDDAssertions.then(Sample.sum(1,3)).isEqualTo(4);
+    	BDDAssertions.then(Sample.sum(2,3)).isEqualTo(5);
     }
 }
