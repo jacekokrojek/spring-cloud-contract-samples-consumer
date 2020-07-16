@@ -128,18 +128,6 @@
 					</execution>
 				</executions>
 			</plugin>
-			<plugin>
-				<groupId>org.springframework.cloud</groupId>
-				<artifactId>spring-cloud-contract-maven-plugin</artifactId>
-				<version>${spring-cloud-contract.version}</version>
-				<extensions>true</extensions>
-<!--				<configuration>-->
-<!--					<baseClassForTests>com.testarmy.demos.base.BaseTestClass</baseClassForTests>-->
-<!--					&lt;!&ndash; This will setup the EXPLICIT mode for the tests &ndash;&gt;-->
-<!--					<testMode>EXPLICIT</testMode>-->
-<!--					<testFramework>JUNIT</testFramework>-->
-<!--				</configuration>-->
-			</plugin>
 		</plugins>
 	</build>
 
